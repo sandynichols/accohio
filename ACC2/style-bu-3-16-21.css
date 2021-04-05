@@ -1,0 +1,638 @@
+/*Theme Name: ACC2
+Theme URI: /new-bootstrap-v3.2/
+Description: Responsive custom WordPress Theme.
+Author: Sandy Nichols  
+Author URI: http://sandynichols.net
+Version: 3.2*/
+
+/*let nav bar go 100%*/
+.wrapper {
+	padding:0;
+	box-shadow: 0 0 30px #b2b2b2;
+}
+
+.footer-main {
+	padding:0;
+}
+/* ---- */
+
+
+img {
+	max-width:100%;	
+	height:auto;
+}
+img.alignleft {
+	float:left;
+	margin:0 20px 20px 0;	
+}
+img.alignright {
+	float:right; 
+	margin:0 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin-top:10px;
+}
+ .alignright {
+	 float:right;
+	 margin-top:10px;
+ }
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+/*for the love of god, why won't you show ? */
+.container .banner .two-thirds.column .righttext {
+	padding:0 !important;
+}
+/*or*/
+.righttext {
+	padding:0;
+}
+
+.logo {
+	padding:.5em 0 0 0;
+}
+
+a:hover {
+	color:#1abc9c;	
+}
+
+/*thumbnail support */
+.latestthumb img {
+	float:left;
+	margin:0 20px 20px 0;	
+}
+
+/*the latest in Cardiology*/
+.callbacks_container {
+	float:none;/*supplied code has this floated, not needed. */	
+}
+.latestposts h2 {
+	margin:0;
+}
+p.latestdate {
+	margin:0 0 5px 0;	
+	font-weight:700;
+	font-size:.8rem;
+	font-family: "Open Sans", verdana, helvetica, arial, sans-serif;	
+	
+}
+.article {
+	display:block;
+	clear:both;
+}
+
+.logo img {
+	/*max-width: 180px;	 why this not work for wv?*/
+}
+
+
+
+section.featured {
+	padding:20px;	
+	border: 1px #a8a8a8 solid;
+	margin: 0 0 1em 0;
+	position: relative;		
+}
+
+.agenda:before,
+.agenda:after {
+    content:"";
+    display:table;
+}
+.agenda:after  { clear:both; }
+.agenda        { zoom:1; /* For IE 6/7 (trigger hasLayout) */
+margin-bottom:25px;
+	border-bottom:1px solid #a8a8a8;
+	 }
+.agenda img.alignright {
+	width:130px;
+	height:auto;	
+}
+
+.breakout:before,
+.breakout:after {
+    content:"";
+    display:table;
+}
+.breakout:after  { clear:both; }
+.breakout        { zoom:1; /* For IE 6/7 (trigger hasLayout) */
+	margin:0 50px;
+	border-left:1px solid #a8a8a8;
+	border-right:1px solid #a8a8a8;
+	padding:20px;
+	 }
+
+.content-block {
+	border: 1px #a8a8a8 solid;
+	padding:20px;
+	margin-bottom: 2em;
+	position: relative;		
+}
+
+article h1 {
+	font-size:1rem;
+	line-height:1rem;
+	margin:0 0 5px 0;	
+}
+.upcoming-meetings {
+	border: 1px #a8a8a8 solid;
+	padding: .5em 1em;
+	margin: 1em 0;
+	position: relative;	
+}
+article.meeting {
+	padding:0 0 1em 0; 
+	box-sizing: border-box;	
+}
+article.meeting h1 {
+	font-size:.8rem;
+	margin-bottom:0;
+	line-height:.9rem;
+}
+p.date {
+	font-weight:700;
+	font-size:.7rem;
+    font-family: "Open Sans", verdana, helvetica, arial, sans-serif;	
+}
+.cal-date {
+	box-sizing: border-box;
+	width: 36px;
+	float: left;
+	padding: 0 0 .2em 0;
+	margin: 0 1em 0 0;
+	background: #198dae;
+	text-align: center;
+	color: #fff !important;	
+	 font-family: "Open Sans", verdana, helvetica, arial, sans-serif;
+	 font-size:.8em;	
+}
+.cal-date span {
+	display: block;
+	border-top: 1px #fff solid;
+	font-size: 1.5em;
+	box-sizing:border-box;	
+}
+.home .wrapper {
+	padding-top:0;	
+}
+
+.footsocial a img {
+	width:50px;
+	height:auto;
+}
+
+
+.featured h2 {
+	font-size: .9rem;
+	line-height:1rem;
+	margin:0 0 5px 0;
+}
+.featured p {
+	font-size:.8rem;
+	line-height:.9rem;	
+}
+
+.nav-previous, .nav-next {
+	 margin-top:40px;
+	 margin-bottom:20px;	
+}
+.winner {
+	border-top: 3px solid #198dae;
+	border-bottom:3px solid #198dae;	
+	text-align:center;
+	padding:20px 0;
+	width:80%;
+	margin:20px auto;
+}
+
+.two-thirds ul {
+	list-style-type:disc;
+	margin-left:30px;	
+}
+
+
+ul#menu-main-menu li:first-child{
+	background-image:url(images/home.png);
+	background-repeat:no-repeat;
+	background-position:15px 13px;
+}	
+.nav > li a{
+	min-height:20px	
+}
+
+
+.register a, a.register, a .register {	
+	padding: .25em .5em;
+	border: 1px solid #a8a8a8;
+	color: #fff;
+	background-color: #198dae;
+	cursor: pointer;
+	text-decoration:none;
+	margin-bottom:10px;	
+}
+.register a:hover {
+	background-color: #2f98b6;	
+}
+
+
+.banner2 {
+	overflow:hidden;	
+}
+.banner2 button {
+	float:right;
+	background:none;
+	border:0;
+}
+.banner2 button:focus {
+	outline:none;
+	outline:0;
+}
+
+.search-form input[type="text"] {
+	height:30px;
+	width:100%;
+	box-sizing:border-box;	
+	margin:0;
+	/*added102417*/
+	border-color:#a8a8a8;
+	border-radius:.4em;
+	text-transform:lowercase;
+}
+.search-form input[type="submit"] {
+	right:15px;
+	top:5px;
+}
+.banner2 .search-form{
+	width:100%;	
+	box-sizing:border-box;
+	margin-bottom:10px;
+}
+
+.mobilesearch {
+	display:none;
+	visibility:collapse;	
+}
+.mobilesearch.show {
+	display:block;
+	visibility:visible;	
+}
+
+.banner {
+	font-size:1em;/*make utility text larger*/
+}
+
+
+a[href$=".pdf"]
+{
+  padding-right: 18px;
+  background-image: url(images/icon-pdf.png);
+  background-position: right;
+  background-repeat:no-repeat;
+}
+
+@media only screen and (max-width: 479px) {
+    /* STYLES HERE for DEVICES with physical max-screen width of 480px */
+	.banner2 a img  {
+		max-width:75%;	
+		margin-top:10px;
+	}
+}
+
+
+/* copied here from ohio site */
+/* global nav styles v2.0 here*/
+.nav a {
+	font-size:1.2em;
+}
+.nav li {
+	border-right-width: 0;
+}
+
+ul#menu-main-menu li:first-child{
+	background-image:url(images/icon-home-active.png);
+	background-repeat:no-repeat;
+	background-position:15px 13px;
+}
+
+
+
+.nav > li a{
+	min-height:20px;
+	/*gets mobile menu off chrome*/
+	padding-left:1em;
+}
+.nav >li a:hover {
+	padding-left:1em;
+}
+
+
+/*drop down styles are not mobile first; desktop edits are here. */
+@media screen and (min-width: 768px) {
+	.nav li {
+		border-top:6px solid #004176;/*because have to have top border on hover*/
+	}
+	/*keeps parent text white when hover the dd children*/
+	.nav > li > a {
+		color:inherit;
+		/*border-bottom:1px solid #004176;*/
+	}
+
+	.nav li:hover {
+		border-top:6px solid #1abc9c;/*top teal border on hover*/		
+		background-color:#fff;
+		color:#004176;
+	}
+	.nav li a:hover {
+		color:#004176;
+	}
+
+	
+	.nav .sub-menu > li {
+		border-top:0;/*keep children from having border top on hover*/
+		margin-top:6px;/*offset fact we added 6px top to .nav li*/
+	}
+
+
+	/*home icon button for desktop*/
+	ul#menu-main-menu li:first-child{
+		background-image:url(images/home.png);
+		background-repeat:no-repeat;
+		background-position:15px 13px;
+	}
+	ul#menu-main-menu li:first-child:hover {
+		background-image:url(images/icon-home-active.png);
+	}
+	
+	
+	/*style dropdowns*/	
+	.sub-menu {
+		z-index: 1000;
+		background-color:#fff;
+		padding:10px 2px; /*gives it a wht bg behind*/
+		border-top:1px solid #004176;
+		border-left:1px solid #a8a8a8;
+		border-right:1px solid #a8a8a8;
+		border-bottom:1px solid #a8a8a8;
+	}
+
+	.nav li li a {
+		border-top-width:0;
+		font-family: 'Raleway', sans-serif;
+		background-color:#ffffff;
+		color:#198dae;
+		padding:2px 10px;
+		margin:8px 0;
+		font-size:1.1em;
+	}
+	.nav li li a:hover {
+		background-color:#1abc9c;
+		color:#fff;
+		padding:2px 10px;
+		margin:8px 0;
+	}
+
+	
+}
+/*mobile background bar and menu button*/
+.menubg, a.toggleMenu {
+		background-color:#004176;
+	}
+
+
+
+/*drop down styles are not mobile first; mobile edits are here. */
+@media screen and (max-width: 767px) {
+	
+	/*remove padding to tighten up left side*/
+	.nav a, .nav a:hover {
+		padding:11px 0;
+	}
+	/*ACC shows no hover treatments, so remove with:*/
+	.nav a:hover, .nav li:hover {
+		background-color:#fff;
+		color:#004176;
+	}
+	
+	 .nav > li {
+		background:#fff;
+		border-right-width:0;
+	}
+	
+	.nav > li a {
+		color: #004176;
+	}
+	
+	.nav > li > .parent {
+		background-image: none;
+    }
+	.nav > li > .parent:before {
+		content:"+";
+		font-family: Verdana, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "sans-serif";
+		font-size: 2.2em;
+		position: relative;
+		top:4px;
+		margin-right:8px;
+	}
+    .nav li li .parent {
+        background-image: none;
+       
+    }
+	
+	.nav li li a, .nav li li a:hover {
+		background-color:#fff;
+		color:#004176;
+		border-top:none;
+		padding-left:35px;
+	}
+
+	/*just remove the home button and graphic for mobile
+	li#menu-item-1744 {
+		display: none;
+		visibility: collapse;
+	}*/
+
+}
+
+/*added 9-24-17*/
+iframe {max-width:100%;}
+
+
+/* Supporters */
+section.supporters img {
+	border:1px solid #a8a8a8;
+	margin-right:18px;
+	margin-left:18px;
+	margin-bottom:18px;
+}
+section.supporters h2 {
+	text-align:center;
+}
+section.supporters h3 {
+	background-color:#024174;
+	color:#fff;
+	text-align:center;
+	text-transform:uppercase;
+	margin: 10px auto;
+	padding:3px 0;
+	max-width:260px;
+}
+section.supporters {
+	margin-bottom:2rem;
+}
+
+@media screen and (min-width: 480px) {
+	section.supporters h3 {
+		max-width:100%;
+	}
+	section.supporters img {
+		margin-left:15px;
+		margin-right:15px;
+	}
+}
+@media screen and (min-width: 768px) {
+	section.supporters img {
+		margin-left:0;
+		margin-right:8px;
+		margin-bottom:8px;
+	}
+}
+@media screen and (min-width: 960px) {
+	section.supporters img {
+		margin-left:18px;
+		margin-right:18px;
+		margin-bottom:18px;
+	}
+	section.supporters h3 {
+		max-width:260px;
+	}
+}
+
+/*Women in Cardiology*/
+.woman {
+	margin:0 10px;
+}
+.women a img {
+	display:none;
+}
+.women h1 {
+	font-size:1rem;
+}
+.women .content-block {
+	padding:10px 10px 0 10px;
+}
+.women article {
+	margin-bottom:1em;
+	min-height:110px;
+}
+form.women {
+	margin-bottom:0;
+	position:relative;
+}
+form.women input[type="text"], form.women select {
+	background:#e6e6e6;
+	border-radius:0;
+	display:inline;
+	border:none;
+	color:#8b8b8b;
+	padding: 10px 4px;
+}
+input:focus::placeholder {
+	color: transparent;
+  }
+
+form.women input[type="submit"] {
+	background:#8b8b8b;
+	border-radius:0;
+	border:none;
+	text-shadow:none;
+	color:#fff;	
+	padding:12px 12px 11px 12px;
+}
+
+ul.womenresult {
+	list-style-type:none;
+	margin-left:0;
+}
+
+.mobile-only {
+	display:block;
+	visibility:visible;
+}
+.searchformtitle {
+	color:#8b8b8b;
+}
+.resultswrapsidebar .content-block {
+	padding:10px 10px 0 10px;
+}
+@media screen and (min-width: 768px) {
+	.women a img {
+ 		display:inline;
+		 float:left;
+		 margin-right:20px;
+	}
+	.women h1 {
+		font-size:22px;
+		line-height:1.5rem;
+	}
+	.mobile-only {
+		display:none;
+		visibility:collapse;
+	}
+	.pad-head-left {
+		margin-left:10px;
+	}
+
+}
+@media screen and (min-width: 960px) {
+	form.women input[type="text"] {
+		width:220px;
+	}
+	form.women select {
+		width:280px;
+	}
+}
+/* ---------- single woman -------------*/
+
+/*.sixteen.column.single-women {
+	text-align:center;
+}*/
+
+.single-women h1 {
+	margin-bottom:10px;
+}
+.single-women h2 {
+	margin-bottom:5px;
+	margin-top:25px;
+}
+
+.profilepiccenter img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-bottom:20px;
+	max-width:300px;
+}
+.profilepiccenter {
+	background-image:url('images/women-placemat.jpg');
+}
+.seventyfive {
+	max-width:75%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+p.contactwoman a{
+	background-color:#198dae;
+	padding:10px 20px;
+	color:#fff;
+}
+h2.short {
+	margin-bottom:40px;
+}
+p.womentitle {
+	margin-bottom:0;
+}
